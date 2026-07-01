@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact &amp; Booking | Aurum House Hotel</title>
+<meta name="description" content="Reach the Aurum House concierge team or request a reservation online. Located in the Old Quarter, City Centre, open for enquiries every day.">
+<meta name="keywords" content="hotel contact, hotel booking form, hotel reservation, Aurum House contact">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-row">
+    <a href="index.html" class="brand">AURUM <strong>HOUSE</strong></a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="rooms.html">Rooms &amp; Suites</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+        <li><a href="contact.html#booking" class="btn" style="padding:12px 24px;">Book Now</a></li>
+      </ul>
+    </nav>
+    <div class="nav-cta">
+      <a href="contact.html#booking" class="btn">Reserve</a>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Home</a> / Contact</p>
+      <h1>Contact &amp; Booking</h1>
+      <p>Reach our concierge directly, or send a reservation request below and we'll confirm within 24 hours.</p>
+    </div>
+  </section>
+
+  <section id="booking">
+    <div class="container contact-grid">
+
+      <div>
+        <div class="info-block">
+          <p class="eyebrow">Address</p>
+          <p>12 Rue des Lanternes<br>Old Quarter, City Centre 10117</p>
+        </div>
+        <div class="info-block">
+          <p class="eyebrow">Reservations</p>
+          <p>reservations@aurumhouse.example<br>+1 (555) 019 4420</p>
+        </div>
+        <div class="info-block">
+          <p class="eyebrow">Front Desk Hours</p>
+          <p>Concierge available 24 hours.<br>Check-in from 3:00 PM &middot; Check-out by 11:00 AM</p>
+        </div>
+        <div class="info-block">
+          <p class="eyebrow">Follow</p>
+          <p>@aurumhouse on Instagram &amp; Pinterest</p>
+        </div>
+
+        <div class="map-frame art-frame" aria-hidden="true">
+          <svg viewBox="0 0 200 140" fill="none" stroke="#7a2e2e" stroke-width="0.7">
+            <line x1="0" y1="40" x2="200" y2="40"/><line x1="0" y1="90" x2="200" y2="90"/>
+            <line x1="60" y1="0" x2="60" y2="140"/><line x1="140" y1="0" x2="140" y2="140"/>
+            <circle cx="100" cy="65" r="6" fill="#7a2e2e" stroke="none"/>
+          </svg>
+          <span class="art-caption">Old Quarter, City Centre</span>
+        </div>
+      </div>
+
+      <div>
+        <p class="eyebrow">Request a Reservation</p>
+        <h2 style="margin-bottom:8px;">Tell us your dates</h2>
+        <p style="margin-bottom:32px;">This is a request, not a confirmed booking — our concierge will follow up by email to finalise availability and payment.</p>
+
+        <form id="booking-form" novalidate>
+          <div class="form-grid">
+
+            <div class="field">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Jordan Smith" autocomplete="name">
+              <span class="error-msg"></span>
+            </div>
+
+            <div class="field">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email">
+              <span class="error-msg"></span>
+            </div>
+
+            <div class="field">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="+1 555 019 4420" autocomplete="tel">
+              <span class="error-msg"></span>
+            </div>
+
+            <div class="field">
+              <label for="guests">Guests</label>
+              <select id="guests" name="guests">
+                <option value="">Select&hellip;</option>
+                <option value="1">1 Guest</option>
+                <option value="2">2 Guests</option>
+                <option value="3">3 Guests</option>
+                <option value="4">4 Guests</option>
+              </select>
+              <span class="error-msg"></span>
+            </div>
+
+            <div class="field">
+              <label for="checkin">Check-In</label>
+              <input type="date" id="checkin" name="checkin">
+              <span class="error-msg"></span>
+            </div>
+
+            <div class="field">
+              <label for="checkout">Check-Out</label>
+              <input type="date" id="checkout" name="checkout">
+              <span class="error-msg"></span>
+            </div>
+
+            <div class="field full">
+              <label for="roomType">Preferred Room</label>
+              <select id="roomType" name="roomType">
+                <option value="">Select a room&hellip;</option>
+                <option value="terrace">The Terrace Room — from $220/night</option>
+                <option value="garden">The Garden Room — from $195/night</option>
+                <option value="corner">The Corner Suite — from $380/night</option>
+                <option value="loft">The Loft Suite — from $340/night</option>
+                <option value="family">The Family Suite — from $410/night</option>
+                <option value="rooftop">The Rooftop Suite — from $560/night</option>
+              </select>
+              <span class="error-msg"></span>
+            </div>
+
+            <div class="field full">
+              <label for="notes">Notes for the Concierge (optional)</label>
+              <textarea id="notes" name="notes" placeholder="Anniversary stay, dietary notes, early check-in request&hellip;"></textarea>
+            </div>
+
+          </div>
+
+          <button type="submit" class="btn btn-solid" style="margin-top:26px;">Send Reservation Request</button>
+          <div class="form-status" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div><div class="footer-brand">AURUM <strong>HOUSE</strong></div><p>12 Rue des Lanternes, Old Quarter<br>A boutique hotel of 42 rooms and suites.</p></div>
+      <div class="footer-col"><h5>Explore</h5><ul><li><a href="about.html">About</a></li><li><a href="rooms.html">Rooms &amp; Suites</a></li><li><a href="gallery.html">Gallery</a></li></ul></div>
+      <div class="footer-col"><h5>Guest Services</h5><ul><li><a href="contact.html#booking">Book a Room</a></li><li><a href="contact.html">Contact Concierge</a></li><li><a href="rooms.html#faq">FAQs</a></li></ul></div>
+      <div class="footer-col"><h5>Reach Us</h5><ul><li><p>reservations@aurumhouse.example</p></li><li><p>+1 (555) 019 4420</p></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>&copy; 2026 Aurum House Hotel. All rights reserved.</span><span>Designed for the MANTRA 2026 Frontend Assignment</span></div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
