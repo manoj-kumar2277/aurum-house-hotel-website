@@ -54,13 +54,15 @@ The visual identity pairs a warm ivory and cream base with deep burgundy and oli
 <td width="50%">
 
 **Home**
-![Home page](screenshots/home.png)
+![Home page]<img width="751" height="567" alt="image" src="https://github.com/user-attachments/assets/81e36775-0c43-400c-92fc-78aa47f5ec77" />
+
 
 </td>
 <td width="50%">
 
 **About**
-![About page](screenshots/about.png)
+![About page]<img width="565" height="695" alt="image" src="https://github.com/user-attachments/assets/3fee42f8-10c7-48f1-a8ec-7614180c9fbc" />
+
 
 </td>
 </tr>
@@ -68,13 +70,15 @@ The visual identity pairs a warm ivory and cream base with deep burgundy and oli
 <td width="50%">
 
 **Rooms & Suites**
-![Rooms page](screenshots/rooms.png)
+![Rooms page]<img width="472" height="700" alt="image" src="https://github.com/user-attachments/assets/a8233b21-7905-44f8-ae44-3f0d87f127f2" />
+
 
 </td>
 <td width="50%">
 
 **Gallery**
-![Gallery page](screenshots/gallery.png)
+![Gallery page]<img width="496" height="722" alt="image" src="https://github.com/user-attachments/assets/c78e28ca-5799-4927-9815-230667677458" />
+
 
 </td>
 </tr>
@@ -82,13 +86,15 @@ The visual identity pairs a warm ivory and cream base with deep burgundy and oli
 <td width="50%">
 
 **Contact & Booking**
-![Contact page](screenshots/contact.png)
+![Contact page]<img width="422" height="676" alt="image" src="https://github.com/user-attachments/assets/9f3b6240-0102-4581-a038-2e2e02d0c099" />
+
 
 </td>
 <td width="50%">
 
 **Mobile view**
-![Mobile view](screenshots/mobile.png)
+![Mobile view]<img width="720" height="1306" alt="WhatsApp Image 2026-07-01 at 5 34 38 PM" src="https://github.com/user-attachments/assets/989500e0-50bb-4556-9620-3985e02fcdf3" />
+
 
 </td>
 </tr>
