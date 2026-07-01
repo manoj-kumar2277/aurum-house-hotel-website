@@ -22,8 +22,8 @@
 
 | Field | Details |
 |---|---|
-| **Name** | *[Your Full Name]* |
-| **Registration / Roll Number** | *[Your Roll Number]* |
+| **Name** | *Y.Manoj kumar reddy* |
+| **Registration / Roll Number** | *CDS/2025/1774* |
 | **Selected Topic** | Hotel Website |
 | **Assignment** | MANTRA 2026 — Frontend Website Design, SEO, Responsiveness & Netlify Hosting |
 | **Submission Date** | 2nd July 2026 |
@@ -32,8 +32,8 @@
 
 | Resource | Link |
 |---|---|
-| 🌐 **Live Website (Netlify)** | *[Paste your Netlify URL here]* |
-| 💻 **GitHub Repository** | *[Paste your GitHub repo URL here]* |
+| 🌐 **Live Website (Netlify)** | *https://aurum-house-hotel.netlify.app/* |
+| 💻 **GitHub Repository** | *https://github.com/manoj-kumar2277/aurum-house-hotel-website/edit/main/README.md* |
 
 ---
 
